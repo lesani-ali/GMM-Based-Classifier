@@ -1,6 +1,6 @@
 # GMM-Based Classifier
 
-This repository contains an implementation of a Gaussian Mixture Model (GMM) based classifier, tested on the MNIST dataset. The project demonstrates the use of GMM for classification tasks and includes custom implementations of the GMM and the classifier.
+This repository contains an implementation of a diagonal Gaussian Mixture Model (dGMM) based classifier where all covariance matrices are constrained to be diagonal, tested on the MNIST dataset. The project demonstrates the use of GMM for classification tasks and includes custom implementations of the GMM and the classifier.
 
 
 ## Project Structure
@@ -8,7 +8,7 @@ This repository contains an implementation of a Gaussian Mixture Model (GMM) bas
 GMM-based-classifier/
 ├── classes/                        # Directory containing class implementations
 │   ├── __init__.py     
-│   ├── GaussianMixture.py          # Gaussian Mixture Model (GMM) implementation
+│   ├── GaussianMixture.py          # diagonal Gaussian Mixture Model (dGMM) implementation
 │   ├── GMMBasedClassifier.py       # GMM-based classifier implementation
 │   ├── utils.py                    # Utility functions implementation
 ├── main.ipynb                      # Notebook demonstrating the use of classifier
